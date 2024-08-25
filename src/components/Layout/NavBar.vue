@@ -1,5 +1,7 @@
 <template>
     <nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+
+    <div class="container px-2">
       <div class="navbar-brand">
         <RouterLink :to="{ name: 'notes' }" class="navbar-item is-size-4 is-family-monospace">
           NotesList
@@ -27,6 +29,7 @@
           <RouterLink :to="{ name: 'stats' }" active-class="is-active" class="navbar-item"> Stats </RouterLink>
         </div>
       </div>
+    </div>
     </nav>
   </template>
   
