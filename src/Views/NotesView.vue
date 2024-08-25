@@ -10,7 +10,7 @@
     <div class="field is-grouped is-grouped-right">
       <div class="control">
         <button :disabled="!newNote" class="button is-link is-danger" @click.prevent="addNote">
-          Add New Note
+          Add New Note1
         </button>
       </div>
     </div>
